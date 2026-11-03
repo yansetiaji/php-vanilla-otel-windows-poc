@@ -362,6 +362,9 @@ powershell -ExecutionPolicy Bypass -File .\start_export_to_console.ps1
 ```
 
 ## Export to tracing backend sample
+```powershell
+powershell -ExecutionPolicy Bypass -File .\start_export_to_otel_collector.ps1
+```
 Tanpa framework, instrumentasi otomatis PHP dengan opentelemetry tidak dapat menangkap data incoming API request
 
 `/items`
