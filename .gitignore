@@ -1,0 +1,41 @@
+# Composer dependencies (restore with `composer install`)
+/vendor/
+composer.phar
+ 
+# Environment and secrets
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.pfx
+*.p12
+ 
+# Logs and temp files
+*.log
+/logs/
+/tmp/
+/cache/
+ 
+# Tool caches
+.phpunit.result.cache
+.php-cs-fixer.cache
+.phpcs-cache
+.phpstan/
+ 
+# Local PHP config override
+php.ini
+ 
+# IDE / editor
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+ 
+# OS files
+Thumbs.db
+ehthumbs.db
+desktop.ini
+$RECYCLE.BIN/
+.DS_Store
